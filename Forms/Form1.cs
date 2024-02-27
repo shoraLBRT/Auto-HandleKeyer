@@ -1,5 +1,5 @@
-using BackgroundRemovalSample.App;
 using BackgroundHandleRemover;
+using Keyer.AutoRemover;
 
 namespace Keyer
 {
@@ -10,10 +10,6 @@ namespace Keyer
         public Form1()
         {
             InitializeComponent();
-        }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,26 +70,6 @@ namespace Keyer
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private async void button3_Click(object sender, EventArgs e)
         {
             if (inputFilePath == null)
@@ -112,16 +88,6 @@ namespace Keyer
                 label4.Text = "Результат сохранен \n" +
                     "в выбранной папке!";
             }
-        }
-
-        private void openFileDialog1_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
 
         private async void button5_Click(object sender, EventArgs e)

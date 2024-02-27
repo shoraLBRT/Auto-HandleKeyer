@@ -51,10 +51,6 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // openFileDialog1
-            // 
-            openFileDialog1.FileOk += openFileDialog1_FileOk;
-            // 
             // button2
             // 
             button2.Location = new Point(694, 368);
@@ -73,7 +69,6 @@
             label1.Size = new Size(289, 20);
             label1.TabIndex = 2;
             label1.Text = "Выберите место сохранения результата";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -92,7 +87,6 @@
             label3.Size = new Size(177, 20);
             label3.TabIndex = 5;
             label3.Text = "Исходное изображение";
-            label3.Click += label3_Click;
             // 
             // label4
             // 
@@ -102,7 +96,6 @@
             label4.Size = new Size(75, 20);
             label4.TabIndex = 6;
             label4.Text = "Результат";
-            label4.Click += label4_Click;
             // 
             // button3
             // 
@@ -139,7 +132,6 @@
             Controls.Add(button1);
             Name = "Form1";
             Text = "Текстуля";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }

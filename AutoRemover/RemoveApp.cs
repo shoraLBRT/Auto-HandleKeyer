@@ -2,7 +2,7 @@
 using OpenCvSharp;
 using System.Diagnostics;
 
-namespace BackgroundRemovalSample.App
+namespace Keyer.AutoRemover
 {
     internal class Remover
     {
@@ -40,10 +40,10 @@ namespace BackgroundRemovalSample.App
         [UsedImplicitly]
         public class RemoverArguments
         {
-            public String InputImagePath { get; set; }
-            public String OutputImagePath { get; set; }
-            public Double FloodFillTolerance { get; set; } = 0.01;
-            public Int32 MaskBlurFactor { get; set; } = 5;
+            public string InputImagePath { get; set; }
+            public string OutputImagePath { get; set; }
+            public double FloodFillTolerance { get; set; } = 0.01;
+            public int MaskBlurFactor { get; set; } = 5;
         }
     }
 }
